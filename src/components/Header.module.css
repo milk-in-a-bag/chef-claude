@@ -1,0 +1,28 @@
+nav {
+  margin: 5px;
+  border: 1px solid #e5e4e2;
+  border-radius: 5px 5px 0 0;
+  height: 70px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  height: inherit;
+  width: fit-content;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+img {
+  transform: scale(0.5);
+  overflow: hidden;
+}
