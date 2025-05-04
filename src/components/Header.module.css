@@ -5,6 +5,7 @@ nav {
   height: 70px;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+  background-color: #ffffff;
 }
 
 .logo {
@@ -16,10 +17,14 @@ nav {
   height: inherit;
   width: fit-content;
   margin: auto;
+  position: relative;
+  left: 10px;
 }
 
 h1 {
   font-weight: 500;
+  position: relative;
+  right: 10px;
 }
 
 img {
